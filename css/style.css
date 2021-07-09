@@ -434,10 +434,6 @@ cursor: pointer;
    margin-bottom: 50px;
 }
 
-.team-box {
-   display:;
-}
-
 .team-list {
    display:inline-flex;
    flex-wrap: wrap;
@@ -447,7 +443,6 @@ cursor: pointer;
 }
 
 .team-item {
-   display:;
    flex-wrap: wrap;
    margin-left: var(--team-margin-left);
    justify-content: space-between;
@@ -508,22 +503,17 @@ cursor: pointer;
 .box-item {
    display: block;
    margin: 0 auto;
-   margin-bottom: 0;
 }
 .team-social-link {
-   display: block;
-   align-items: center;
    margin: 0 auto;
-
    fill: var(--social-svg-color);
 }
-.team-social-icon {
-   display: block;
-   text-align: center;
-
-   
-
-
+.team-social-item:hover
+.team-social-item:focus {
+   background-color: var(--button-background-color);
+}
+.team-social-link {
+   fill: #fff; 
 }
 
 /*Client-section*/
