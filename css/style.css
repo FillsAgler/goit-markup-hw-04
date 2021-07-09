@@ -235,8 +235,15 @@ body {
    margin-bottom: 20px;
 }
 
-
-
+.social-icon {
+   margin: auto;
+   fill:#fff;
+}
+/*
+fill: linear-gradient(
+   to right,
+   rgba(255, 255, 255, 0.1);),
+   rgba(255, 255, 255, 0.1);)),
 /*------------------------Studio_____________STUDIO_____________Studio*
 
 /*Section-HEAD*/
@@ -508,11 +515,12 @@ cursor: pointer;
    margin: 0 auto;
    fill: var(--social-svg-color);
 }
-.team-social-item:hover
+.team-social-item:hover,
 .team-social-item:focus {
    background-color: var(--button-background-color);
 }
-.team-social-link {
+.team-social-item:hover .team-social-link,
+.team-social-link:focus .team-social-item{
    fill: #fff; 
 }
 
