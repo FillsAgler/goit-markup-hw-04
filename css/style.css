@@ -331,20 +331,22 @@ cursor: pointer;
 }
 
 .feature-tumb {
-   display: flex;
-   height: 120px;   
-
-    var(--feature-icon-background);
+   display: block;
    text-align: center;
 
-   background: #000;
+   background-color: var(--feature-icon-background);;
+   border-radius: 4px;
+
+   padding-top: 25px;
+   padding-bottom: 25px;
+   margin-bottom: 30px;
+;
 }
 .feature-list-title {
    font-weight: 700;
    line-height: 1.14;
    text-transform: uppercase;
 
-   padding-top: 30px;
    padding-bottom: 10px;
 }
 
