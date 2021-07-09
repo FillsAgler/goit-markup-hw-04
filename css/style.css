@@ -485,7 +485,6 @@ cursor: pointer;
 }
 
 .team-social-icon {
-   background;
    fill: var(--social-svg-color);
 }
 
@@ -532,6 +531,10 @@ cursor: pointer;
    border-color: var(--accent-color);
    fill: var(--accent-color);
    transition: all 0.2s ease-in;
+}
+
+.social-icon {
+   
 }
 
 /*--------------------Portfolio__________PORTFOLIO__________Portfolio*
