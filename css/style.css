@@ -562,8 +562,12 @@ cursor: pointer;
 
 .client-item:hover,
 .client-item:focus {
-   border-color: var(--accent-color);
-   fill: var(--accent-color);
+   border-color: var(--button-background-color);
+}
+.client-item:hover .client-icon,
+.client-item:focus .client-icon {
+   fill: var(--button-background-color);
+
 }
 
 /*--------------------Portfolio__________PORTFOLIO__________Portfolio*
