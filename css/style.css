@@ -353,8 +353,7 @@ cursor: pointer;
 }
 
 .big-icon {
-
-
+   margin: 0 auto;
 }
 
 
@@ -516,7 +515,7 @@ cursor: pointer;
 
 .client-item {
    width: 170px;
-   height: 92px;;
+   height: 92px;
    display: inline-flex;
    margin: 15px;
    fill: var(--svg-color);
