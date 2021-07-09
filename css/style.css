@@ -329,6 +329,15 @@ cursor: pointer;
    flex-basis: calc(100% / 4 - var(--feature-margin-left));
 }
 
+.feature-tumb {
+   padding-top: 25px;
+   padding-bottom: 25px;
+   margin-bottom: 30px;
+   background: var(--feature-icon-background);
+   text-align: center;
+
+
+}
 .feature-list-title {
    font-weight: 700;
    line-height: 1.14;
@@ -338,20 +347,15 @@ cursor: pointer;
    padding-bottom: 10px;
 }
 
+
 .feature-list-text {
    color: var(--subtitle-text-color);
    line-height: 1.71;
 }
 
-.big-icon  {
-   display: block;
-   content: "";
-   align-items: center;
-   margin: auto;
-   height: 120px;
-   background-position: center;
-   object-fit:contain;
-   background-color: var(--feature-icon-background);
+.big-icon {
+
+
 }
 
 
@@ -448,6 +452,10 @@ cursor: pointer;
    background-color:#fff
 }
 
+.team-item {
+   padding-bottom: 30px;
+}
+
 .team-images {
    display: block;
    max-width: 100%;
@@ -470,27 +478,21 @@ cursor: pointer;
    padding-bottom: 30px;
 }
 
-.team-item {
-   padding-bottom: 30px;
-}
 
 .team-social {
    display: flex;
    justify-content: center;
+}
+.team-social-item {
 
 }
-
 .team-social-link {
    display: inline-flex;
 }
-
 .team-social-icon {
    fill: var(--social-svg-color);
 }
 
-.head-client {
-   
-}
 /*Client-section*/
 .client {
    padding-top: 94px;
@@ -531,10 +533,6 @@ cursor: pointer;
    border-color: var(--accent-color);
    fill: var(--accent-color);
    transition: all 0.2s ease-in;
-}
-
-.social-icon {
-   
 }
 
 /*--------------------Portfolio__________PORTFOLIO__________Portfolio*
