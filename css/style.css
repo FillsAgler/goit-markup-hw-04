@@ -157,7 +157,7 @@ body {
 .mail-icon,
 .tel-icon{
    margin-right: 10px;
-   fill: var(--text-color);
+   fill: #757575;
 }
 
 .contacts-link:hover,
@@ -165,6 +165,9 @@ body {
    color: var(--hover-color);
 }
 .contacts-link:hover .mail-icon{
+   fill: var(--hover-color);
+}
+.contacts-link:hover .tel-icon{
    fill: var(--hover-color);
 }
 
