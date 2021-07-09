@@ -333,13 +333,9 @@ cursor: pointer;
 }
 
 .feature-tumb {
-   padding-top: 25px;
-   padding-bottom: 25px;
-   margin-bottom: 30px;
-   background: var(--feature-icon-background);
+   height: 120px;   
+   background-image: var(--feature-icon-background);
    text-align: center;
-
-
 }
 .feature-list-title {
    font-weight: 700;
