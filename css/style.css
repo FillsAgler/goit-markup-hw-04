@@ -164,9 +164,7 @@ body {
 .contacts-link:focus{
    color: var(--hover-color);
 }
-.contacts-link:hover .mail-icon{
-   fill: var(--hover-color);
-}
+.contacts-link:hover .mail-icon,
 .contacts-link:hover .tel-icon{
    fill: var(--hover-color);
 }
@@ -333,9 +331,13 @@ cursor: pointer;
 }
 
 .feature-tumb {
+   display: flex;
    height: 120px;   
-   background-image: var(--feature-icon-background);
+
+    var(--feature-icon-background);
    text-align: center;
+
+   background: #000;
 }
 .feature-list-title {
    font-weight: 700;
@@ -353,6 +355,7 @@ cursor: pointer;
 }
 
 .big-icon {
+   display: flex;
    margin: 0 auto;
 }
 
