@@ -514,7 +514,7 @@ cursor: pointer;
    margin: -15px;
 }
 
-.client-list > .client-item {
+.client-item {
    width: 170px;
    height: 92px;;
    display: inline-flex;
@@ -525,15 +525,15 @@ cursor: pointer;
    cursor: pointer;
 }
 
-.client-list .client-icon {
+.client-icon {
    margin: auto;
+   fill: #AFB1B8;
 }
 
-.client-list > .client-item:hover,
-.client-list > .client-item:focus {
+.client-item:hover,
+.client-item:focus {
    border-color: var(--accent-color);
    fill: var(--accent-color);
-   transition: all 0.2s ease-in;
 }
 
 /*--------------------Portfolio__________PORTFOLIO__________Portfolio*
