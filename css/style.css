@@ -241,24 +241,30 @@ body {
    margin: 0 auto;
 }
 
-.social-icon {
-   fill:#fff;
-   margin: 0 auto;
-   justify-content: space-between;
-}
-
 .social-item{
-   display: flex;
+   display:inline-flex;
    align-items: center;
-   margin: 0 auto;
-
+   justify-content: space-between;
+   margin: 0 10px 0 0;
    border-radius: 50%;
    background-color: #fff;
    width: 44px;
    height: 44px;
    background-color: 
-   rgba(255, 255, 255, 0.1);),
+   rgba(255, 255, 255, 0.1);
 }
+
+.social-item-box {
+   display: block;
+   margin: 0 auto;
+}
+
+.social-item-icon {
+   display: block;
+   fill:#fff;
+   margin: 0 auto;
+}
+
 
 .social-item:hover,
 .social-item:focus{
