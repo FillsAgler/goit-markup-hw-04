@@ -82,59 +82,49 @@ body {
    padding-bottom: 25px;
    color: var(--logo-color);
 }
-.logo-header {
+.logo-studio {
    color: var(--header-logo-color);
 }
-
 /*HEDER*/ 
 .header {
    font-size: 14px;
    font-weight: 500;
    line-height: 1.14;
    letter-spacing: 0.02em;
-
    border-bottom: 1px solid #ECECEC;
 }
-
 /*Nav*/
-.header-nav {
+.header-field{
    display: flex;
    align-items: center;
    justify-content: space-between;
 }
-.nav {
+.nav{
    display:flex;
    align-items: center;
 }
-
 .nav-list { 
    display:flex;
    margin-left: 93px;
-
 }
-
 /*позиціонування*/
-.site-item:not(:first-child){
+.list-item:not(:first-child){
    margin-left: 50px;
 }
-
 /*оформлення елементів навігації + падінг*/
-.site-nav-link{
+.item-link{
    display: flex;
    padding-top: 32px;
    padding-bottom: 32px;
-
    color: var(--title-text-color);
 }
-
-.site-nav-link:hover,
-.site-nav-link:focus{
+.item-link:hover,
+.item-link:focus{
    color: var(--hover-color);
 }
 .active{
    color: var(--hover-color);
 }
-
 /*Contacts*/
 .contacts {
    display:inline-flex;
@@ -145,15 +135,11 @@ body {
 .contacts-item:not(:first-child){
    margin-left: 50px;
 }
-
 .contacts-link {
    display: flex;
    align-items: center;
-
-
    color: var(--subtitle-text-color);
 }
-
 .mail-icon,
 .tel-icon{
    margin-right: 10px;
